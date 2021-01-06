@@ -72,7 +72,7 @@ const PublicFooter = (props) => {
       </div>
       <div className='container app-footer_foot'>
         <p>
-          &copy; {new Date().getFullYear()} BeCoworker. All Rights Reserved.
+          &copy; {new Date().getFullYear()} TENTACLE. All Rights Reserved.
         </p>
       </div>
     </footer>
