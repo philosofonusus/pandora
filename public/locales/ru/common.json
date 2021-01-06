@@ -1,0 +1,54 @@
+{
+  "CALL_US": "Позвоните нам:",
+  "HOME": "Главное",
+  "CATALOG": "Каталог",
+  "CONTACT_US": "Связаться с нами",
+
+  "PRODUCTS_TYPE_CAR_ALARM": "Автосигнализации",
+  "PRODUCTS_TYPE_MOTO_ALARM": "Мотосигнализации",
+  "PRODUCTS_TYPE_IMMOBILIZERS": "Иммобилайзеры",
+  "PRODUCTS_TYPE_ACCESSORIES": "Аксессуары",
+
+  "car": "Автосигнализации",
+  "motorcycle": "Мотосигнализации",
+  "immobilizers": "Иммобилайзеры",
+  "accessories": "Аксессуары",
+
+
+
+  "NEWS": "Новости",
+  "CONTACTS": "Контакты",
+  "MY_PANDORA": "Моя Пандора",
+
+  "OUR_CONTACTS": "Наши Контакты",
+  "FOOTER_P_1": "Модус Армения и Pandora — торговая марка калужского ООО «НПО Телеметрия».",
+  "ADDRESS": "Адрес",
+  "_ADDRESS": "Улица Грибоедова, 25/23, 0051, Ереван, Армения",
+  "TELEPHONE": "Телефон",
+  "EMAIL_ADDRESS": "Электронный адрес",
+  "TELEPHONE_CALL_TEXT": "звонок бесплатный",
+
+  "SELECT_TYPE": "Выберите Тип",
+  "SELECT_SERIES": "выберите серию",
+
+  "CHOOSE_BRAND": "Выберете Марку",
+  "CHOOSE_MODEL_AND_YEAR": " Выберете Модель И Год",
+  "SELECT_TYPE_IGNITION": "Выберете Тип Зажигания",
+  "IGNITION_TYPE_START_STOP": "Старт/Стоп",
+  "IGNITION_TYPE_KEY": "Ключ",
+  "IGNITION_TYPE_HYBRID": "Гибридный",
+  "SEARCH_DEVICE": "Поиск Устройства",
+  "PLEASE_SELECT_THE_FIELD": "Пожалуйста Выберите Поле",
+  "NO_PRODUCTS_TO_OFFER": "Нет товаров для предложения"
+
+
+
+
+
+
+
+
+
+
+
+}

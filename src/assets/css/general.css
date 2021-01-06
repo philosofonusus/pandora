@@ -1,0 +1,13 @@
+@import "general/reset.css";
+@import "general/color.css";
+@import "general/font.css";
+@import "general/main.css";
+@import "layouts/header.css";
+@import "layouts/footer.css";
+@import "layouts/menu.css";
+@import "pages/index.css";
+@import "pages/news.css";
+@import "pages/contact.css";
+@import "pages/category.css";
+@import "pages/subcategory.css";
+@import "general/media.css";

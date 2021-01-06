@@ -1,0 +1,18 @@
+.hero-image-section .app-correct-info-section{width:100%}
+.app-category-section{padding:10px 0 50px;font-size:15px;font-family:"Roboto";color:var(--black-3);line-height:1.6;text-align:center}
+.app-category-section .app-head-title ~ p{margin:20px auto 10px;max-width:650px}
+.app-category-content{padding-top:23px}
+.app-category_filter{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:15px;font-family:"Roboto";color:var(--black-4);line-height:1;margin-bottom:6px}
+.app-category-btn{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:0 5px;padding:13px;min-width:90px;-webkit-transition:.3s;-o-transition:.3s;transition:.3s;background-color:var(--gray-1)}
+.app-category-btn:hover,.app-category-btn.active{background-color:var(--light-blue);color:var(--white)}
+.category-cart{font-size:14px;font-family:"Roboto";color:var(--black-3);line-height:1.571;text-align:left;display:block;max-width:410px;width:100%;margin:auto}
+.app-category-content .category-cart{margin-top:34px}
+.category-cart-body{margin-top:15px}
+.category-cart-title{font-size:18px;color:var(--black-1);line-height:1.333;max-width:345px;margin-bottom:10px}
+.category-cart-body p{max-width:400px}
+.category-cart-price-box{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;font-size:12px;font-family:"Roboto";color:var(--black-3);line-height:1;margin-top:16px;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.category-cart-price{font-size:17px;color:var(--light-blue);font-weight:700;margin-right:3px}
+.category-cart-header{padding:24px 11px;background:var(--white);border-width:1px;border-color:var(--gray-1);border-style:solid;-webkit-transition:.3s;-o-transition:.3s;transition:.3s;height:268px;overflow:hidden;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.category-cart-header img{max-height:100%;-webkit-transition:.3s;-o-transition:.3s;transition:.3s}
+.category-cart:hover .category-cart-header img{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}
+.category-cart:hover .category-cart-header{-webkit-box-shadow:0 0 5px var(--light-blue);box-shadow:0 0 5px var(--light-blue);border-color:var(--light-blue)}

@@ -1,0 +1,34 @@
+.ant-btn-primary-active > button {
+    background-color: darkblue !important;
+}
+
+
+.privateLayout {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.privateLayout > main {
+    flex: 1;
+}
+
+.privateComponent {
+    border-left: 3px solid #1890ff ;
+}
+
+.privateRow {
+    /*height: calc(100vh - 144px);*/
+} /*todo revise*/
+
+
+
+.privateList{
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+.privateList > li > a  {
+    width: 100%;
+}

@@ -1,0 +1,27 @@
+.app-header-top{background-color:var(--dark-blue);font-size:14px;line-height:1.714;font-family:"Roboto";color:var(--white);padding:10px 0}
+.app-lang{position:relative}
+.app-lang ul{position:absolute;background:var(--dark-blue);padding:3px 10px;left:0;width:100%;z-index:11}
+.app-socPages-list{width:76px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;margin-right:33px}
+.soc-pages-item{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;width:25px;height:25px;padding:4px;border:1px solid transparent;-webkit-transition:.3s;-o-transition:.3s;transition:.3s}
+.soc-pages-item span{display:block;width:100%;height:100%;background-size:contain}
+.soc-pages-item:hover{border-color:var(--white);border-radius:8px}
+.app-header-top_phone-link span{color:var(--light-blue)}
+.app-header-top_phone-link{position:relative}
+.app-header-top_phone-link:before{content:'';margin-right:16px;background-image:url(../../assets/images/general/phone-icon.svg);width:20px;height:20px;display:inline-block;vertical-align:middle;background-position:center;background-repeat:no-repeat}
+.app-header-top .col.flex{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.app-lang_active{background:transparent}
+.app-lang_icon{display:inline-block;width:10px;height:7px;margin-left:12px;vertical-align:middle;-webkit-transition:.3s;-o-transition:.3s;transition:.3s}
+.app-lang ul a{display:block;margin:5px 0;-webkit-transition:.3s;-o-transition:.3s;transition:.3s}
+.app-lang ul a:hover{color:var(--light-blue)}
+.app-header-top_phone-link:hover{text-decoration:underline;-webkit-text-decoration-color:var(--light-blue);text-decoration-color:var(--light-blue)}
+.app-lang_active.active .app-lang_icon{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}
+.app-header-top .col-4.col-md.flex{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
+
+.app-navbar_list{margin-bottom:0}
+.category-cart-body p{max-height:calc(22px * 3);overflow:hidden;position:relative}
+.category-cart-body p:after{content:'...';position:absolute;right:0;bottom:3px;background:#fff;width:30px;text-align:center}
+.category-cart-header img{width:100%}
+p,li,h1,h2,h3,h4,h5,h6,input,textarea,span,div{white-space:pre-line}
+.ant-select-selector input{font-size:14px;line-height:1.714;font-family:"Roboto";color:var(--white)}
+.app-header-top_phone-link {color: #fff;}
+

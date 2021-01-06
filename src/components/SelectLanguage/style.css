@@ -1,0 +1,32 @@
+.select_5 {
+    background-color: rgb(25, 39, 47);;
+    color: white;
+}
+
+.ant-select-arrow {
+    color: white;
+}
+
+.ant-select-selector .ant-select-selection-placeholder {
+    font-size: 14px;
+    line-height: 1.714;
+    font-family: "Roboto";
+    color: var(--white);
+    opacity: 1;
+    font-weight: 400;
+}
+.ant-select-arrow .anticon svg {
+    display: none;
+}
+
+.ant-select-arrow .anticon {
+    display: inline-block;
+    width: 10px;
+    height: 7px;
+    vertical-align: middle;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    background: #02ABFF;
+}

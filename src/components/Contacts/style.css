@@ -1,0 +1,10 @@
+.app-contact-section{padding:10px 0 50px;font-size:15px;font-family:"Roboto";color:var(--black-3);line-height:1.6;text-align:center;background-size: auto;background-position: left center;}
+.app-contact-section .app-head-title ~ p{margin:20px auto 10px;max-width:556px}
+
+.app_form label{font-size:13px;font-family:"Roboto";color:#7690b1;line-height:1.846;text-align:left;display:block}
+.app_form label span{color: var(--light-blue)}
+.app_form{max-width:868px;width:100%;margin: 30px auto;}
+.app_form input,.app_form textarea{-webkit-transition: .3s;-o-transition: .3s;transition: .3s;border-width:1px;border-color:#e5e8ee;border-style:solid;background-color:#fff;width:100%;font-size:15px;font-family:"Roboto";color:#19272f;line-height:1.6;text-align:left;padding:8px 16px;margin-top:5px;margin-bottom:20px}
+.app_form textarea{height:110px;resize:none}
+.app_form .ant-btn-primary {background-color: rgb(2, 171, 255);max-width: 405px;width: 100%;border:0;padding: 12px;height: auto;border-radius: 0;}
+.app_form input:focus,.app_form textarea:focus{border-color: var(--light-blue)}

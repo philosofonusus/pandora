@@ -1,0 +1,23 @@
+:root{
+    --white: #ffffff;
+    --black: #000000;
+    --black-1: rgb(25, 39, 47);
+    --black-2: rgb(40, 42, 43);
+    --black-3: rgb(82, 83, 84);
+    --black-4: rgb(61, 64, 65);
+    --gray-1: rgb(229, 232, 238);
+    --gray-2: rgb(242, 244, 248);
+    --gray-3: rgb(150, 154, 157);
+    --gray-4: rgb(118, 144, 177);
+    --gray-5: rgb(200, 200, 200);
+    --light-blue: rgb(2, 171, 255);
+    --light-blue-1: #95aece;
+    --dark-blue: rgb(25, 39, 47);
+    --op-dark-blue-85: rgba(15, 22, 27, 0.851);
+    --fb-color: rgb(58, 89, 152);
+    --twitter-color: rgb(86, 172, 238);
+    --google-color: rgb(221, 75, 57);
+    --t-color: rgb(54, 70, 94);
+    --pinterest-color: rgb(190, 8, 28);
+    --link-color: rgb(16, 102, 239);
+}

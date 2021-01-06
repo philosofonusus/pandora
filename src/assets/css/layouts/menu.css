@@ -1,0 +1,47 @@
+.app-navbar{background-color:var(--white)}
+.app-brend{display:-webkit-box;display:-ms-flexbox;display:flex;width:150px;height:22px}
+.app-brend span{display:block;width:100%;height:100%;background-size:contain}
+.app-navbar_toggle-btn{width:27px;height:20px;background:transparent;position:relative;display:none}
+.navbar-toggle-icon{position:absolute;width:65%;height:3px;background-color:var(--light-blue);top:50%;right:0;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);-webkit-transition:.3s;-o-transition:.3s;transition:.3s}
+.app-navbar_toggle-btn:before,.app-navbar_toggle-btn:after{content:'';width:100%;height:3px;background:var(--light-blue);position:absolute;left:0;-webkit-transition:.3s;-o-transition:.3s;transition:.3s}
+.app-navbar_toggle-btn:before{top:0}
+.app-navbar_toggle-btn:after{bottom:0}
+.app-navbar_toggle-btn.active .navbar-toggle-icon{opacity:0}
+.app-navbar_toggle-btn.active:before{top:50%;-webkit-transform:translateY(-50%) rotate(45deg);-ms-transform:translateY(-50%) rotate(45deg);transform:translateY(-50%) rotate(45deg)}
+.app-navbar_toggle-btn.active:after{top:50%;-webkit-transform:translateY(-50%) rotate(-45deg);-ms-transform:translateY(-50%) rotate(-45deg);transform:translateY(-50%) rotate(-45deg)}
+.app-navbar .flex{-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+.app-navbar_content{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.navbar-item{display:-webkit-box;display:-ms-flexbox;display:flex;padding:29px 24px;font-size:14px;font-family:"Roboto";color:var(--black-1);line-height:1.714;-webkit-transition:.3s;-o-transition:.3s;transition:.3s;position:relative}
+.navbar-item:after{content:'';width:100%;height:3px;position:absolute;bottom:0;left:0;right:0;background-color:transparent;-webkit-transition:.3s;-o-transition:.3s;transition:.3s}
+.navbar-item.active:after{background-color:var(--light-blue)}
+.navbar-item:hover{color:var(--white);background-color:var(--light-blue)}
+.navbar-item.active:hover{background-color:transparent;color:var(--black-1)}
+.app-navbar_list li{position:relative}
+.dropdown-display-cancel {
+    display:none !important;
+}
+.app-navbar-dropdown{
+    position:absolute;
+    left:0;
+    background-color:var(--op-dark-blue-85);
+    max-width:220px;
+    padding:20px 65px 20px 20px;
+    font-size:15px;
+    font-family:"Roboto";
+    color:var(--light-blue-1);
+    line-height:2.2;
+    z-index:5;
+    display:none
+}
+.app-navbar-dropdown a{
+    -webkit-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s
+}
+.app-navbar-dropdown a:hover{color:var(--light-blue)}
+.app-navbar_list li:hover .app-navbar-dropdown{display:block}
+.app-navbar_list li:visited .app-navbar-dropdown{
+    display:none
+
+}
+

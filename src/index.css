@@ -1,0 +1,11 @@
+@import "assets/css/general/reset.css";
+@import 'assets/css/general/color.css';
+@import 'assets/css/general/font.css';
+@import 'assets/css/general/main.css';
+
+@import 'assets/css/layouts/menu.css';
+
+@import "assets/css/pages/index.css";
+@import "assets/css/pages/subcategory.css";
+
+@import 'assets/css/general/media.css';

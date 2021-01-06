@@ -1,0 +1,11 @@
+.hero-image-section{min-height:500px;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: end; -ms-flex-align: end;align-items: flex-end;}
+.app-navlink-section{background:var(--white);padding:15px 0;font-size:13px;font-family:"Roboto";color:var(--light-blue);line-height:1}
+.app-navlink-section li:not(:last-of-type){margin-right:5px;padding-right:10px;position:relative}
+.app-navlink-section li:not(:last-of-type):after{content:'»';position:absolute;right:0;top:0}
+.app-navlink-section li span{color:var(--black-3)}
+.app-news-section{padding:10px 0 50px;font-size:15px;font-family:"Roboto";color:var(--black-3);line-height:1.6;text-align:center}
+.app-news-section .app-head-title ~ p{margin:20px auto 10px;max-width:556px}
+.app-news-content{font-size:14px;font-family:"Roboto";color:var(--black-3);line-height:1.571;text-align:left}
+.app-news-content .news-cart{margin-top:44px}
+.app-news-content .app-news-more-btn{margin-top:33px}
+

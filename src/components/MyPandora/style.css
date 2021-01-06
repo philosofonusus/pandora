@@ -1,0 +1,370 @@
+.productsListToOffer {
+    position: relative;
+    left: 400px;
+    /*top: 100px;*/
+    display: none;
+    background-color: red;
+    width: 400px;
+    height: 400px;
+}
+
+.showProductsListToOffer {
+    display: inline-block !important;
+}
+
+
+.app-navbar_content .app-navbar_btn {
+    margin-left: 17px;
+    font-size: 14px;
+    font-family: "Roboto";
+    color: var(--light-blue);
+    line-height: 1.714;
+    text-align: center;
+    border-width: 1px;
+    border-color: var(--gray-1);
+    border-style: solid;
+    padding: 5px 20px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    background: transparent;
+    height: auto;
+    box-shadow: none;
+}
+
+.app-navbar_content .app-navbar_btn:hover {
+    background-color: var(--light-blue);
+    border-color: var(--light-blue);
+    color: var(--white)
+}
+
+.ant-modal-header {
+    border: 0;
+    background-color: #19272f;
+    padding: 35px 30px 30px
+}
+
+.ant-modal-content {
+    background-color: #19272f;
+    -webkit-box-shadow: 4px 6.928px 10px 0 rgba(19, 30, 36, 0.3);
+    box-shadow: 4px 6.928px 10px 0 rgba(19, 30, 36, 0.3)
+}
+
+.ant-modal-title {
+    font-size: 32px;
+    font-family: "Roboto";
+    color: #02abff;
+    font-weight: 700;
+    line-height: .75;
+    text-align: left;
+    margin-bottom: 0
+}
+
+.ant-modal-wrap .ant-modal-body {
+    padding: 0
+}
+
+.ant-modal-wrap .ant-form-item:not(:last-of-type) {
+    padding: 0 30px;
+    margin-bottom: 0
+}
+
+.ant-modal-wrap .ant-form-item {
+    font-size: 13px;
+    font-family: "Roboto";
+    color: #7690b1;
+    line-height: 1.846;
+    text-align: left
+}
+
+.ant-modal-wrap .ant-modal-close-x path {
+    fill: #02abff
+}
+
+.ant-modal-wrap .ant-radio-wrapper {
+    font-size: 14px;
+    font-family: "Roboto";
+    color: #fff;
+    line-height: 1.714;
+    text-align: center
+}
+
+.ant-modal-wrap .ant-radio-inner {
+    border-radius: 50%;
+    background-color: #314763;
+    width: 24px;
+    height: 24px;
+    border: 0
+}
+
+.ant-modal-wrap .ant-radio-checked .ant-radio-inner {
+    border: 0;
+    background-color: #02abff
+}
+
+.ant-modal-wrap .ant-radio-inner::after {
+    border-radius: 50%;
+    background-color: #fff;
+    width: 4px;
+    height: 4px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.ant-modal-wrap .ant-radio-checked .ant-radio-inner::after {
+    -webkit-transform: scale(1) translate(-50%, -50%);
+    -ms-transform: scale(1) translate(-50%, -50%);
+    transform: scale(1) translate(-50%, -50%)
+}
+
+.ant-col-14 {
+    max-width: 100%;
+    width: 100%
+}
+
+.ant-modal-wrap #validate_other_type label {
+    margin-top: 15px;
+}
+
+.ant-modal-wrap #validate_other_type .ant-radio {
+    margin-right: 10px;
+}
+
+.ant-modal-wrap #validate_other_type label:not(:last-child) {
+    margin-right: 55px
+}
+
+.ant-modal-wrap #validate_other_type label > span:last-child:before {
+    content: '';
+    width: 80px;
+    height: 30px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 10px;
+}
+
+.ant-modal-wrap #validate_other_type label > span:last-child {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ant-modal-wrap #validate_other_type label:first-of-type > span:last-child:before {
+    background-image: url(../../assets/images/general/car_icon.svg)
+}
+
+.ant-modal-wrap #validate_other_type label:last-of-type > span:last-child:before {
+    background-image: url(../../assets/images/general/moto_icon.svg)
+}
+
+.ant-modal-wrap #validate_other_type label.ant-radio-wrapper-checked:first-of-type > span:last-child:before {
+    background-image: url(../../assets/images/general/car_icon_active.svg)
+}
+
+.ant-modal-wrap #validate_other_type label.ant-radio-wrapper-checked:last-of-type > span:last-child:before {
+    background-image: url(../../assets/images/general/moto_icon_active.svg)
+}
+
+.ant-modal-wrap .ant-form-item:nth-child(3) {
+    border-bottom: 1px solid #131e24;
+    padding-bottom: 20px;
+    margin-bottom: 15px
+}
+
+.ant-modal-wrap .ant-col.ant-col-12.ant-col-offset-6.ant-form-item-control {
+    max-width: 100%;
+    width: 100%;
+    margin: auto
+}
+
+.ant-modal-wrap .ant-form-item-control-input-content button[type="submit"] {
+    width: 100%;
+    max-width: 100%;
+    font-size: 15px;
+    font-family: "Roboto";
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+    height: 45px;
+    margin-top: 25px;
+    padding: 16px
+}
+
+.ant-modal-wrap .ant-form-item:nth-child(5) {
+}
+
+.ant-modal-wrap #validate_other_keyType label {
+    margin-top: 17px;
+}
+
+.ant-modal-wrap #validate_other_keyType .ant-radio {
+    margin-right: 10px;
+}
+
+.ant-modal-wrap #validate_other_keyType label:not(:last-child) {
+    margin-right: 30px
+}
+
+.ant-modal-wrap #validate_other_keyType label > span:last-child:before {
+    content: '';
+    width: 35px;
+    height: 35px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 10px;
+}
+
+.ant-modal-wrap #validate_other_keyType label > span:last-child {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ant-modal-wrap #validate_other_keyType label:first-of-type > span:last-child:before {
+    background-image: url(../../assets/images/general/startst_icon.svg)
+}
+
+.ant-modal-wrap #validate_other_keyType label:nth-of-type(2) > span:last-child:before {
+    background-image: url(../../assets/images/general/key_icon.svg)
+}
+
+.ant-modal-wrap #validate_other_keyType label:last-of-type > span:last-child:before {
+    background-image: url(../../assets/images/general/hybrid_icon.svg)
+}
+
+.ant-modal-wrap #validate_other_keyType label.ant-radio-wrapper-checked:first-of-type > span:last-child:before {
+    background-image: url(../../assets/images/general/startst_icon_active.svg)
+}
+
+.ant-modal-wrap #validate_other_keyType label.ant-radio-wrapper-checked:nth-of-type(2) > span:last-child:before {
+    background-image: url(../../assets/images/general/key_icon_active.svg)
+}
+
+.ant-modal-wrap #validate_other_keyType label.ant-radio-wrapper-checked:last-of-type > span:last-child:before {
+    background-image: url(../../assets/images/general/hybrid_icon_active.svg)
+}
+
+.ant-modal-wrap .ant-form-item:nth-child(5) {
+    border-bottom: 1px solid #131e24;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+.ant-modal-wrap .ant-form-item-control-input .ant-form-item-control-input-content .ant-select-selector {
+    background-color: #314763;
+    border: 0;
+    padding: 5px 16px;
+    height: 39px;
+    font-size: 15px;
+    font-family: "Roboto";
+    color: #fff;
+    line-height: 1.6;
+    text-align: left
+}
+
+.ant-modal-wrap .ant-select-disabled.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    background-color: #314763;
+    opacity: .5
+}
+
+.ant-modal-wrap .ant-form-item:nth-child(7) {
+    margin-bottom: 20px;
+}
+
+.ant-modal-wrap #validate_other {
+    -webkit-box-shadow: 4px 6.928px 10px 0px rgba(19, 30, 36, 0.3);
+    box-shadow: 4px 6.928px 10px 0px rgba(19, 30, 36, 0.3);
+}
+
+
+.productsListToOffer.showProductsListToOffer {
+    z-index: 1;
+    background-color: rgb(15, 22, 27);
+    opacity: 0.951;
+    position: absolute;
+    width: 100%;
+    left: 100%;
+    top: 0%;
+    height: auto;
+    padding: 16px 20px;
+    max-width: 200px;
+}
+
+.productsListToOffer.showProductsListToOffer ul a {
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 1.938;
+    text-align: left;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.productsListToOffer.showProductsListToOffer ul a:hover {
+    color: #1890ff
+}
+
+
+.no-products-to-offer,
+.productsListToOffer.showProductsListToOffer {
+    font-size: 16px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 2.688;
+    text-align: left;
+}
+.ant-modal{
+    top: 20px;
+}
+
+.productsListToOffer_top {
+    font-size: 13px;
+    font-family: "Roboto";
+    color: rgb(118, 144, 177);
+    line-height: 1.846;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.productsListClose_btn {
+    border: 0;
+    background: transparent;
+    width: 15px;
+    height: 15px;
+}
+
+.productsListClose_btn svg {
+    width: 100%;
+    height: 100%;
+}
+.hide{
+    opacity: 0!important;
+    pointer-events: none;
+}
+.no_scroll{
+    overflow: hidden;
+}
